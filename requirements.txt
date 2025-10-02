@@ -1,0 +1,60 @@
+# HTTP 클라이언트
+requests>=2.31.0
+
+# OpenAI API
+openai>=1.0.0
+
+# 스케줄링
+APScheduler>=3.10.0
+
+# 데이터 처리
+pandas>=2.0.0
+numpy>=1.24.0
+
+# PDF 생성
+reportlab>=4.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 웹 크롤링 (API 문서 크롤링용)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+selenium>=4.15.0
+
+# 환경 변수 관리
+python-dotenv>=1.0.0
+
+# 로깅
+loguru>=0.7.0
+
+# 날짜/시간 처리
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# JSON 처리
+jsonschema>=4.19.0
+
+# 타입 힌트
+typing-extensions>=4.7.0
+
+# 테스트 (개발용)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# 코드 품질 (개발용)
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Jupyter Notebook (분석용, 선택사항)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# 데이터 시각화 (선택사항)
+plotly>=5.15.0
+dash>=2.14.0
+
+# Langchain (LLM 에이전트, 구현 예정)
+langchain>=0.0.300
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
